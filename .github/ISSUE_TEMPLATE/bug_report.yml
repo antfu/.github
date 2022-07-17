@@ -18,7 +18,7 @@ body:
     id: reproduction
     attributes:
       label: Reproduction
-      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is required otherwise the issue might be closed without further notice. [**Why?**](https://antfu.me/posts/why-reproductions-are-required).
+      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
       placeholder: Reproduction
     validations:
       required: true
@@ -40,6 +40,8 @@ body:
         - npm
         - yarn
         - pnpm
+        - bun
+        - n/a
     validations:
       required: true
   - type: checkboxes
@@ -54,7 +56,7 @@ body:
           required: true
         - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
           required: true
-        - label: Check that this is a concrete bug. For Q&A open a GitHub Discussion.
+        - label: Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.
           required: true
         - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
           required: true
