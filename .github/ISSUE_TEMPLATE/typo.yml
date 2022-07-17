@@ -6,3 +6,7 @@ body:
     attributes:
       value: |
         If the typo / grammar issue is trivial and straightforward, you can directly sending a quick pull request! If you spot multiple of them, it's suggest to combine them into a single PR. Thanks!
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
