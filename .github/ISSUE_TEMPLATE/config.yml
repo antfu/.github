@@ -1,3 +1,4 @@
+blank_issues_enabled: false
 contact_links:
   - name: 🙌 Contribution Guide
     url: https://github.com/antfu/contribute
