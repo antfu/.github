@@ -18,7 +18,7 @@ body:
     id: reproduction
     attributes:
       label: Reproduction
-      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
+      description: A minimal reproduction is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
       placeholder: Reproduction
     validations:
       required: true
@@ -60,3 +60,11 @@ body:
           required: true
         - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
           required: true
+  - type: checkboxes
+    id: contributions
+    attributes:
+      label: Contributions
+      description: Please note that Open Source projects are maintained by volunteers, where your cases might not be always relevant to the others. It would make things move faster if you could help investigate and propose solutions.
+      options:
+        - label: I am willing to submit a PR to fix this issue
+        - label: I am willing to submit a PR with failing tests (actually just go ahead and do it, thanks!)
