@@ -1,38 +1,28 @@
-<!-- DO NOT IGNORE THE TEMPLATE!
+### 🔗 Linked issue
 
-Thank you for contributing!
+<!-- Please ensure there is an open issue and mention its number. For example, "resolves #123" -->
 
----
+### 🧭 Context
 
-> Please be aware that vibe-coding contributions are **🚫 STRICTLY PROHIBITED**. 
-> We are humans behind these open source projects, trying hard to maintain good quality and a healthy community. 
-> Not only do vibe-coding contributions pollute the code, but they also drain A LOT of unnecessary energy and time from maintainers and toxify the community and collaboration.
->
-> All vibe-coded, AI-generated PRs will be rejected and closed without further notice. In severe cases, your account might be banned organization-wide and reported to GitHub.
->
-> **PLEASE SHOW SOME RESPECT** and do not do so.
+<!-- Brief background and why this change is needed -->
 
----
+<!-- High-level summary of what changed -->
 
-Before submitting the PR, please make sure you do the following:
+### 📚 Description
 
-- Read the [Contributing Guide](https://github.com/antfu/contribute).
-- Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
-- Provide a description in this PR that addresses **what** the PR is solving and **WHY**, or reference the issue that it solves (e.g. `fixes #123`).
-- Ideally, include relevant tests that fail without this PR but pass with it.
+<!-- Describe your changes in detail. Why is this change required? What problem does it solve? -->
 
--->
+<!-- If you used AI tools to help with this contribution, please ensure the PR description and code reflect your own understanding.
+     Write in your own voice rather than copying AI-generated text. -->
 
-- [ ] <- Keep this line and put an `x` between the brackts.
+<!----------------------------------------------------------------------
+Before creating the pull request, please make sure you do the following:
 
-### Description
+- Check that there isn't already a PR that solves the problem the same way. If you find a duplicate, please help us reviewing it.
+- Ensure that PR title follows conventional commits (https://www.conventionalcommits.org)
+- Update the corresponding documentation if needed.
+- Include relevant tests that fail without this PR but pass with it.
+- Add any additional context, tradeoffs, follow-ups, or things reviewers should be aware of.
 
-<!-- Please insert your description here and provide especially info about the "what" this PR is solving, and "WHY" -->
-
-### Linked Issues
-
-fixes #<number>
-
-### Additional context
-
-<!-- e.g. is there anything you'd like reviewers to focus on? -->
+Thank you for contributing to npmx!
+----------------------------------------------------------------------->
