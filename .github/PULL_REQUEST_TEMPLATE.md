@@ -24,5 +24,5 @@ Before creating the pull request, please make sure you do the following:
 - Include relevant tests that fail without this PR but pass with it.
 - Add any additional context, tradeoffs, follow-ups, or things reviewers should be aware of.
 
-Thank you for contributing to npmx!
+Thanks for your contribution!
 ----------------------------------------------------------------------->
